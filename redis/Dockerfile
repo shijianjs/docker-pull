@@ -2,5 +2,5 @@
 FROM redis:5-alpine
 
 # dig命令
-RUN apk add --no-cache -U bind-tools
+RUN apk add --no-cache -U bind-tools bash
 

@@ -1,4 +1,4 @@
-FROM zookeeper:3.4
+FROM openjdk:8-alpine
 
 ENV TZ Asia/Shanghai
 

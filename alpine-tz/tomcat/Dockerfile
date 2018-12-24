@@ -1,4 +1,4 @@
-FROM zookeeper:3.4
+FROM tomcat:8.5-alpine
 
 ENV TZ Asia/Shanghai
 

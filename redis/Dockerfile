@@ -6,3 +6,5 @@ RUN apk add --no-cache -U bind-tools bash curl python3 pkgconfig python3-dev ope
 
 RUN pip3 install --upgrade pip
 RUN pip3 install fabric dnspython
+
+ENV TZ Asia/Shanghai
